@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #00796b;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    color: #004d40;
+    max-width: 600px;
+  }
+  
