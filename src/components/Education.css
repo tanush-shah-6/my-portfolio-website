@@ -1,0 +1,98 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: #0b0b15; /* Dark theme */
+    color: #fff;
+    text-align: center;
+  }
+  
+  .education h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  .education ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .education li {
+    background-color: #141428; /* Dark background for education */
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+  }
+  
+  .education li:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .education h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #9a4bff; /* Bright color for education titles */
+  }
+  
+  .education p {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .tech-stack {
+    font-size: 1rem;
+    color: #bdbdbd;
+    margin-top: 10px;
+  }
+  
+  .tech-stack span {
+    background-color: #1e1e2f; /* Darker background for tech stack */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #9a4bff; /* Bright text color */
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .tech-stack span:hover {
+    background-color: #9a4bff; /* Hover effect */
+    color: #fff;
+  }
+  
+  .skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .skill-icon {
+    background-color: #1e1e2f; /* Darker background for icons */
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #9a4bff;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+  }
+  
+  .skill-icon:hover {
+    background-color: #9a4bff;
+    color: #fff;
+  }
+  
