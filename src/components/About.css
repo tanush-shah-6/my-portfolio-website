@@ -1,13 +1,22 @@
+/* About.css */
+
 .about {
   text-align: center;
-  padding: 100px 20px;
-  background-color: #0b0b15; /* Matches dark theme */
+  padding: 1px 20px;
+  background-color: transparent; /* Remove the background */
   color: #fff;
+  height: 70vh; /* Ensure the section takes full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
 }
 
 .intro-section h1 {
   font-size: 3em;
   font-weight: bold;
+  opacity: 0; /* Initially invisible */
+  transition: opacity 1s ease-in-out; /* Smooth opacity transition */
 }
 
 .name-highlight {
@@ -24,4 +33,11 @@
   color: #999;
   line-height: 1.5;
   margin: 20px auto 0; /* Center the paragraph and add top margin */
+  opacity: 0; /* Initially invisible */
+  transition: opacity 1s ease-in-out 0.2s; /* Smooth opacity transition with delay */
+}
+
+.intro-section h1.visible,
+.intro-description.visible {
+  opacity: 1; /* Make the elements visible */
 }
