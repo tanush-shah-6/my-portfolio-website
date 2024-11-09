@@ -29,7 +29,7 @@ const Experience = () => (
         <p className="date">Jan 2023 – Mar 2023</p>
         <p>
           Performed analysis on Coronary Heart Disease and implemented various Machine Learning models to
-          predict the cause of the disease. Learnt 
+          predict the cause of the disease.
         </p>
         <div className="skills-list">
           <strong>Skills:</strong> Python • Jupyter Notebook • Pandas • NumPy
